@@ -3,7 +3,7 @@
 
 body {
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(233,175,132,1) 0%, rgba(186,126,81,1) 95.6% );
-    min-height: 150vh;
+    min-height: 120vh;
 }
 
 /* Header  (titre + épées) */
@@ -107,6 +107,7 @@ button:hover {
 svg {
     position: fixed;
     bottom: 0;
+    z-index: -1;
 }
 
 /* audio */

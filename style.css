@@ -1,0 +1,116 @@
+
+/* Notre page */
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(233,175,132,1) 0%, rgba(186,126,81,1) 95.6% );
+    min-height: 85vh;
+}
+
+/* Header  (titre + épées) */
+
+.title {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.epee {
+    font-size: 25px;
+}
+
+/* Container des six blocks */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* Partie sur les blocks */
+
+.block {
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-image: linear-gradient( 109.6deg,  rgba(223,234,247,1) 11.2%, rgba(244,248,252,1) 91.1% );
+    box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.42);
+}
+
+
+.block img {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.block p {
+   text-align: center;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 14px;
+   padding: 5px 5px;
+}
+
+/* Partie Button */
+
+button {
+    float: right;
+    width: 100px;
+    height: 96.95px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: linear-gradient( 102.2deg,  rgba(250,45,66,1) 9.6%, rgba(245,104,104,1) 96.1% );
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Arthur */
+
+.--un img {
+    height: 96.96px;
+}
+
+/* Karadoc */
+
+.--trois img{
+    height: 96.96px;
+}
+
+/* Kadoc */
+
+.--quatre img {
+    height: 96.55px;
+}
+
+/* Guenièvre */
+
+.--six img {
+    width: 80px;
+    height: 96.55px;
+}
+
+/* Positionner le footer en bas*/
+
+svg {
+    position: fixed;
+    bottom: 0;
+}
+
+/* audio */
+
+audio {
+    display: none;
+}
